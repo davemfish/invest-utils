@@ -74,5 +74,9 @@ def pud_standardize_01(pud_results_shp, pud_variable='PUD_YR_AVG'):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('pud_results_path')
+    parser.add_argument('--pud_var', help='Name of the pud variable to transform. None defaults to PUD_YR_AVG')
     args = parser.parse_args()
-    pud_standardize_01(args.pud_results_path)
+    if args.pud_var:
+        pud_standardize_01(args.pud_results_path, args.pud_var)
+    else:
+        pud_standardize_01(args.pud_results_path)
