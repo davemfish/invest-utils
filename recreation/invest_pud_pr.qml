@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.14.11-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.11-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="FID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -50,15 +50,15 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 attr="pud_prsqrt" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+  <renderer-v2 attr="pud_pr" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
     <ranges>
       <range render="false" symbol="0" lower="0.000000000000000" upper="0.000000000000000" label=" 0.000 - 0.000 "/>
-      <range render="true" symbol="1" lower="0.000000000000000" upper="0.032000000000000" label=" 0.000 - 0.032 "/>
-      <range render="true" symbol="2" lower="0.032000000000000" upper="0.071000000000000" label=" 0.032 - 0.071 "/>
-      <range render="true" symbol="3" lower="0.071000000000000" upper="0.100000000000000" label=" 0.071 - 0.100 "/>
-      <range render="true" symbol="4" lower="0.100000000000000" upper="0.220000000000000" label=" 0.100 - 0.220 "/>
-      <range render="true" symbol="5" lower="0.220000000000000" upper="0.320000000000000" label=" 0.220 - 0.320 "/>
-      <range render="true" symbol="6" lower="0.320000000000000" upper="1.000000000000000" label="0.32 - 1.0"/>
+      <range render="true" symbol="1" lower="0.000000000000000" upper="0.001000000000000" label=" 0.000 - 0.001 "/>
+      <range render="true" symbol="2" lower="0.001000000000000" upper="0.005000000000000" label=" 0.001 - 0.005 "/>
+      <range render="true" symbol="3" lower="0.005000000000000" upper="0.010000000000000" label=" 0.005 - 0.010 "/>
+      <range render="true" symbol="4" lower="0.010000000000000" upper="0.050000000000000" label=" 0.010 - 0.050 "/>
+      <range render="true" symbol="5" lower="0.050000000000000" upper="0.100000000000000" label=" 0.050 - 0.100 "/>
+      <range render="true" symbol="6" lower="0.100000000000000" upper="1.000000000000000" label="0.32 - 1.0"/>
     </ranges>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -363,7 +363,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
