@@ -6,7 +6,7 @@ import geopandas as gpd
 import pandas as pd
 import numpy as np
 import os
-import matplotlib as mpl
+# import matplotlib as mpl
 import matplotlib.pyplot as plt
 import argparse
 plt.rcParams['axes.facecolor']='white'
@@ -50,6 +50,7 @@ def plot_standardized_pud(pud_shp_4plot):
     
     pngname = pud_shp_4plot.split('.')[0] + '.png'
     plt.savefig(pngname)
+    plt.close(plt.gcf())
     return(0)
 
 def pud_standardize_01(pud_results_shp, pud_variable='PUD_YR_AVG'):
